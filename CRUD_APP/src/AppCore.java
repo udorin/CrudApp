@@ -42,7 +42,7 @@ class AppCore {
                 optionMenuStart = scan.nextInt();
                 optionMenuTrue = false;
             } catch (Exception e) {
-                System.out.println("You can only enter 1 or 2 , dont enter a string!!Try Again");
+                System.out.println("You can only enter a number, dont enter a string!!Try Again");
             }
         }while ( optionMenuTrue);
 
